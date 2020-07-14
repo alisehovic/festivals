@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0px;
+  font-size: 16px;
+    }
+
+form {
+  border: 3px solid #f1f1f1;
+      }
+
+
+.login{
+  width: 350px;
+  padding: 12px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.tipka {
+  font-size:18px !important;
+  width: 150px;
+
+}
+.tipka:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 0px;
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.register{
+  width: 40%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;  
+
+}
+
+.lista{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 50px;
+
+}
+
+.lista li {
+  float: left;
+  padding: 10px;
+}
+
+.lista li a{
+   display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+.lista li:not(.slika):hover{
+  background-color:   #006400;
+  border-radius: 8px;
+  transition: all 500ms ease; 
+
+}
+
+li.logout {
+float: right;
+padding: 10px;
+}
+
+.header{
+
+  height: 60px;
+  background-color: green;
+
+}
+
+.pagination{
+
+  list-style-type: none;
+
+}
+.pagination ul li{
+    display: inline;
+
+}
+
+#festivalsMap {
+
+  width: 100%;
+  height: 500px;
+
+}
+
+.festivalsMapContainer{
+  padding-top: 100px;
+}
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+  background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+  background-color:#b8e356;
+  border-radius:6px;
+  border:1px solid #83c41a;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #86ae47;
+  margin-bottom:2px;
+ }
+.myButton:hover {
+  background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+  background-color:#a5cc52;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.labelDiv label {
+  margin-top: 20px;
+}
+
+.karta{
+  margin-top: 20px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
